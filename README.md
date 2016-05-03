@@ -15,7 +15,7 @@ Webová prezentace o třech stránkách (loading přes AJAX). „Registrační�
 - Microsoft Edge.
 
 ### Instalace
-1. Importujte soubor __/k projektu/databaze.sql__ (obsahuje připravené tabulky),
+1. Importujte soubor __/k projektu/databaze.sql__ (obsahuje připravené tabulky) do své databáze,
 2. editujte __db.php__ dle nastavení vašeho serveru,
 3. v souboru __config.php__ upravte konstanty s názvem stránek, domény, e-mail a copyright (zápatí),
 4. jakmile stránky zpřístupníte na localhostu, můžete zkusit experimentovat – editovat text, vyměnit pozadí (defaultně HTML5 Video v MP4) atd.
