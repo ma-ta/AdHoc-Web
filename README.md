@@ -4,6 +4,8 @@
 
 Webová prezentace o třech stránkách (loading přes AJAX). „Registrační“ formulář odešle potvrzující e-mail, vygeneruje heslo a uloží záznam do MySQL databáze.
 
+Screenshoty ve složce [__/k projektu/screenshots__] (https://github.com/ma-ta/AdHoc-Web/tree/master/k%20projektu/screenshots).
+
 ### Požadavky
  - HTTP Server (Apache httpd),
  - PHP 7+,
