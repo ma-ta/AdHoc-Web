@@ -1,0 +1,143 @@
+/* Space out content a bit */
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    /*background-image: url("pozadi.png"); nahrazeno videem*/
+    background-repeat: repeat;
+    background-size: 100% 100% auto;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Georgia, 'Roboto Slab', serif;
+}
+form .povinne-pole {
+    
+}
+#stav {
+    margin-top: -24px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    opacity: 0.9;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    opacity: 0.8;
+}
+#stav p {
+    margin: 0;
+    padding: 0;
+}
+h2, h3, h4 {
+    color: #194166;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#registrace .poznamka {
+    color: #8d0010 !important;
+    font-weight: bold;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(hradcany.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* Custom page header */
+.header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #ffffff;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 1.5rem;
+    border-top: .05rem solid #ffffff;
+}
+
+.jumbotron {
+    opacity: 0.9;
+    border-radius: 0.5rem;
+}
+/* Customize container */
+@media (min-width: 48em) {
+    .container {
+        max-width: 46rem;
+    }
+}
+.container-narrow > hr {
+    margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: .05rem solid #ffffff;
+}
+.jumbotron h1 {
+    font-size: 45px;
+}
+.jumbotron .btn {
+    padding: .75rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 3rem 0;
+}
+.marketing p + h4 {
+    margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 2rem;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+    .jumbotron h1 {
+        font-size: 72px;
+    }
+}
