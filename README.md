@@ -4,8 +4,8 @@
 
 Webová prezentace o třech stránkách (loading přes AJAX). „Registrační“ formulář odešle potvrzující e-mail, vygeneruje heslo a uloží záznam do MySQL databáze.
 
-Screenshoty ve složce [__/k projektu/screenshots__] (/k%20projektu/screenshots).
-![Screenshot formuláře] (/k%20projektu/screenshots/reg-form.png)
+Screenshoty ve složce [__/k projektu/screenshots__](/k%20projektu/screenshots).
+![Screenshot formuláře](/k%20projektu/screenshots/reg-form.png)
 
 ### Požadavky
  - HTTP Server (Apache httpd),
