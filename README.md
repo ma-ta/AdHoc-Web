@@ -1,6 +1,6 @@
-# AdHoc-Web
+# Ad-hoc WebReg
 
-> Microsite s registračním formulářem.
+> Microsite s formulářem a databází MySQL
 
 Webová prezentace o třech stránkách (loading přes AJAX). „Registrační“ formulář odešle potvrzující e-mail, vygeneruje heslo a uloží záznam do MySQL databáze.
 
